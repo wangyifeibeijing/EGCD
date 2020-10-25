@@ -58,7 +58,7 @@ def use_EGCD(features_in,adj_in,labels_in):
 		gd.step()
 		#CosineLR.step()
 		loss_ram.append(loss)
-		print(H)
+		print(A1.mm(X))
 		'''
 		if i%10==0 :
 			if i>=20:

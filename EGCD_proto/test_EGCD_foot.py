@@ -24,7 +24,7 @@ labels_true = np.argmax(labels, axis=1)
 mi,loss_ram,y_original,H=EGCD_prototype.use_EGCD(features,Amatrix,labels)
 
 plt.plot(loss_ram)
-plt.title('Loss value')
+plt.title('Loss value on football')
 plt.xlabel('times')
 plt.ylabel('loss value')
 plt.show()
